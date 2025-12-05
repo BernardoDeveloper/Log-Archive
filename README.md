@@ -7,11 +7,25 @@ git clone
 cd log_archive
 ```
 
-Call the script, and in parameter describe the folder name
+Make the files as executable
+
+
+```sh
+chmod +x ./log-archive.sh
+chmod +x ./generate-log-tests.sh
+```
+
+To compress the logs files call the script, and in parameter describe the folder name
 
 
 ```sh
 ./log-archive <log-directory>
+```
+
+If you want generate some logs to test, can execute the following script
+
+```sh
+./generate-log-tests.sh <log-directory>
 ```
 
 ---
