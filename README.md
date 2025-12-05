@@ -3,8 +3,8 @@
 First clone the repository
 
 ```sh
-git clone 
-cd log_archive
+git clone https://github.com/BernardoDeveloper/Log-Archive.git
+cd log-archive
 ```
 
 Make the files as executable
